@@ -1,10 +1,10 @@
 {
-    "name": "hyperf-ext/captcha",
+    "name": "itjackjw/hyperf-captcha",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "php",
-        "hyperf",
+        "hyperf 3.0",
         "captcha"
     ],
     "description": "The Hyperf CAPTCHA package.",
@@ -25,19 +25,19 @@
         }
     },
     "require": {
-        "php": ">=7.3",
+        "php": ">=8.0",
         "ext-fileinfo": "*",
         "ext-imagick": "*",
         "ext-swoole": ">=4.5",
-        "hyperf-ext/encryption": "~2.2.0",
-        "hyperf/cache": "~2.2.0",
-        "hyperf/di": "~2.2.0",
-        "hyperf/framework": "~2.2.0",
-        "hyperf/validation": "~2.2.0"
+        "itjackjw/hyperf-encryption": "dev-master",
+        "hyperf/cache": "^3.0",
+        "hyperf/di": "^3.0",
+        "hyperf/framework": "^3.0",
+        "hyperf/validation": "^3.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",
-        "hyperf/testing": "~2.2.0",
+        "hyperf/testing": "^3.0",
         "phpstan/phpstan": "^0.12",
         "swoole/ide-helper": "dev-master"
     },
